@@ -7,6 +7,9 @@ body {
 }
 
 .welcome-header {
-  margin-top: 145px;
+  margin-top: 90px;
   text-align: center;
+}
+.welcome-header__title {
+  margin-bottom: 40px;
 }
