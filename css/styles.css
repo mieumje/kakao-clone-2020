@@ -30,4 +30,5 @@ body {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
