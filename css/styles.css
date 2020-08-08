@@ -27,5 +27,7 @@ body {
   margin: 0px 30px;
 }
 #login-form input {
+  border: none;
   padding: 15px 0px;
+  font-size: 18px;
 }
