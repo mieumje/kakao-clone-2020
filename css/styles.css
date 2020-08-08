@@ -36,3 +36,6 @@ body {
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
+#login-form input:focus {
+  border-color: rgba(0, 0, 0, 0.4);
+}
