@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  align-items: center;
 }
 .screen-header__title {
   font-size: 28px;
