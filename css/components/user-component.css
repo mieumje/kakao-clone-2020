@@ -3,6 +3,7 @@
 }
 .user-component__column:first-child {
   display: flex;
+  align-items: center;
 }
 .user-component__avatar {
   width: 70px;
