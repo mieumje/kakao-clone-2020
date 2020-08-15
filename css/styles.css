@@ -11,6 +11,7 @@
 @import "screens/friends.css";
 body {
   font-family: "Open Sans", sans-serif;
-  height: 1000000000vh;
+
   padding-top: 20px;
+  color: #2e363e;
 }
