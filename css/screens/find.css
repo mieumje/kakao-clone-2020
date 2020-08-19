@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 25px;
-  border-bottom: var(--main-border);
 }
 .find-icons__icon {
   display: flex;
@@ -14,4 +13,7 @@
 }
 .find-icons__icon span {
   margin-top: 18px;
+}
+.recommended-friends {
+  border-top: var(--main-border);
 }
