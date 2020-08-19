@@ -16,4 +16,6 @@
 }
 .recommended-friends {
   border-top: var(--main-border);
+  padding: 25px 0px;
+  border-bottom: var(--main-border);
 }
