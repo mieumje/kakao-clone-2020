@@ -5,10 +5,22 @@
   align-items: center;
   margin-bottom: 15px;
 }
+
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.header__cog__dot {
+  background-color: tomato;
+  width: 4px;
+  height: 4px;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 47px;
 }
