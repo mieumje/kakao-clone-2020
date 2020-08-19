@@ -19,3 +19,7 @@
   padding: 25px 0px;
   border-bottom: var(--main-border);
 }
+.recommended-friends__title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
