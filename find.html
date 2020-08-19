@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>19:36</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span>
+          <i class="fas fa-music fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-cog fa-lg"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen chats-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="images/woo.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">우승한</h4>
+            <h6 class="user-component__subtitle">
+              뭐하냐?
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">16:56</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="images/yong.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">용광중</h4>
+            <h6 class="user-component__subtitle">
+              오늘 한잔하냐?
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">17:14</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="images/sin.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">신상수</h4>
+            <h6 class="user-component__subtitle">
+              라이딩 ㄱㄱ
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">17:19</span>
+          <div class="badge">3</div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">5</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__ellipsis__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/3ce96e9540.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
