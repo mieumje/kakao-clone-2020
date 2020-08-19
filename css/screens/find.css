@@ -7,3 +7,6 @@
   flex-direction: column;
   align-items: center;
 }
+.find-icons__icon i {
+  font-size: 35px;
+}
