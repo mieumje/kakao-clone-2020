@@ -39,3 +39,14 @@
 .open-chat__header span {
   opacity: 0.6;
 }
+.open-post {
+  display: flex;
+}
+.opent-chat__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.opent-chat__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
