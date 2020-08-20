@@ -50,3 +50,12 @@
   text-transform: uppercase;
   opacity: 0.6;
 }
+.open-post-members {
+  display: flex;
+  align-items: center;
+}
+.open-post-members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
