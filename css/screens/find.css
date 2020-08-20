@@ -67,6 +67,7 @@
 }
 .open-post-members .divider {
   width: 1px;
-  height: 10px;
+  height: 15px;
   background-color: rgba(0, 0, 0, 0.2);
+  margin: 0 5px;
 }
