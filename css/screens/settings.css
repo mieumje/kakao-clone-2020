@@ -5,12 +5,33 @@
   display: flex;
   align-items: center;
 }
+.settings-setting2 {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.settings-setting:last-child {
+  padding-bottom: 50px;
+}
+.settings-setting2:first-child {
+  padding-top: 50px;
+}
 .settings-setting i {
   opacity: 0.8;
-
+  font-size: 22px;
+}
+.settings-setting2 i {
+  opacity: 0.8;
   font-size: 22px;
 }
 .settings-setting-icon {
+  width: 25px;
+  height: 20px;
+  margin-right: 20px;
+}
+.settings-setting-icon2 {
   width: 25px;
   height: 20px;
   margin-right: 20px;
