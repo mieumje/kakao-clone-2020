@@ -88,6 +88,9 @@
   border-radius: 20px;
   display: flex;
   align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
 .open-post__heart-count span {
   margin-left: 3px;
