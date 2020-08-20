@@ -15,3 +15,8 @@
 .more-suggestions__icon {
   margin-right: 30px;
 }
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+}
