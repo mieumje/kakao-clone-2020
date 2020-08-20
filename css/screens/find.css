@@ -30,3 +30,7 @@
   color: --gray;
   font-size: 18px;
 }
+.open-chat__header {
+  display: flex;
+  justify-content: between;
+}
