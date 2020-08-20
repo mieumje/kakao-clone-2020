@@ -65,3 +65,8 @@
   opacity: 0.5;
   font-size: 14px;
 }
+.open-post-members .divider {
+  width: 1px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
