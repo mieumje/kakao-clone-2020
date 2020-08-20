@@ -43,6 +43,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: var(--main-border);
+  padding-bottom: 10px;
 }
 .opent-chat__title {
   font-weight: 600;
