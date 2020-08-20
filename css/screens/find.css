@@ -53,9 +53,11 @@
 .open-post-members {
   display: flex;
   align-items: center;
+  margin-top: 7px;
 }
 .open-post-members img {
   width: 25px;
   height: 25px;
   border-radius: 50%;
+  margin-right: 5px;
 }
