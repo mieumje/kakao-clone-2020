@@ -34,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .open-chat__header span {
   opacity: 0.6;
@@ -44,8 +44,9 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: var(--main-border);
-  padding-bottom: 10px;
+  padding: 10px;
 }
+
 .opent-chat__title {
   font-weight: 600;
   margin-bottom: 7px;
