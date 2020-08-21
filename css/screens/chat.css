@@ -86,3 +86,12 @@
   align-items: center;
   box-sizing: border-box;
 }
+.reply .reply__column:first-child {
+  width: 10%;
+}
+.reply .reply__column:last-child {
+  width: 90%;
+}
+.reply input {
+  height: 30px;
+}
