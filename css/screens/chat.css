@@ -97,7 +97,7 @@
   position: relative;
 }
 .reply input {
-  padding: 12px;
+  padding: 11px;
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
@@ -105,12 +105,16 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -3.5px;
-  top: 2px;
+  right: -22px;
+  top: 4px;
 }
 .reply__column:last-child > i {
-  right: 40px;
+  right: 20px;
   top: 10px;
+  font-size: 27px;
+}
+.reply__column:first-child > i {
+  font-size: 27px;
 }
 .reply__column button {
   background-color: var(--yellow);
