@@ -46,10 +46,12 @@
 }
 @keyframes appearBtnAnimation {
   from {
-    transform: translateY(80px);
+    transform: translateY(50px);
+    opacity: 0;
   }
   to {
     transform: none;
+    opacity: 1;
   }
 }
 .nav__btn {
