@@ -105,3 +105,6 @@
   right: 0;
   top: 10px;
 }
+.reply__column:last-child i {
+  right: 15px;
+}
