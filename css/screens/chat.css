@@ -65,3 +65,6 @@
 .message-row--own {
   justify-content: flex-end;
 }
+.message-row--own .message__bubble {
+  background-color: var(--yellow);
+}
