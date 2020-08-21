@@ -1,3 +1,17 @@
+@keyframes rotateBadge {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.user-component:hover .badge {
+  animation: rotateBadge 1s linear infinite;
+}
 .user-component {
   justify-content: space-between;
   margin-bottom: 20px;
