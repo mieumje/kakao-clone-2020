@@ -28,3 +28,7 @@
   border-radius: 25px;
   font-size: 14px;
 }
+.message-row {
+  width: 100%;
+  display: flex;
+}
