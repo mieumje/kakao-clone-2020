@@ -75,3 +75,14 @@
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 25px;
+  align-items: center;
+  box-sizing: border-box;
+}
