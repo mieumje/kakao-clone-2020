@@ -16,3 +16,6 @@
 #chat-screen .alt-header {
   z-index: 1;
 }
+.main-chat {
+  margin-top: 120px;
+}
