@@ -33,6 +33,6 @@
     transform: rotateZ(360deg);
   }
 }
-.screen-header__icons .fa-cog {
-  animation: rotateCog 3s ease-in-out;
+.screen-header__icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
 }
