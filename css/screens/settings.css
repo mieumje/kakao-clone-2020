@@ -46,3 +46,15 @@
 .settings_setting-column-theme {
   opacity: 0.5;
 }
+.settings-icon-N {
+  margin-left: 10px;
+  background-color: tomato;
+  color: white;
+  font-size: 12px;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
