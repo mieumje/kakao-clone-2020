@@ -4,6 +4,7 @@
   font-size: 18px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .settings-setting2 {
   padding: 20px 0px;
@@ -35,4 +36,11 @@
   width: 25px;
   height: 20px;
   margin-right: 20px;
+}
+.settings_setting-column {
+  display: flex;
+  align-items: center;
+}
+.settings_setting-column:last-child {
+  opacity: 0.5;
 }
