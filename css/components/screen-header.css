@@ -24,3 +24,15 @@
   right: 20px;
   top: 47px;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons .fa-cog {
+  animation: rotateCog 3s ease-in-out;
+}
