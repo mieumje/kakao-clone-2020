@@ -44,3 +44,14 @@
   position: absolute;
   left: 30px;
 }
+@keyframes appearBtnAnimation {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+.nav__btn {
+  animation: appearBtnAnimation 1s ease-in-out;
+}
