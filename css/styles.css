@@ -22,6 +22,7 @@ body {
   padding-top: 20px;
   padding-bottom: 80px;
   color: #2e363e;
+  overflow: auto;
 }
 
 .main-screen {
