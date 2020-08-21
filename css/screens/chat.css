@@ -116,3 +116,7 @@
   height: 30px;
   border-radius: 50%;
 }
+.reply__column button:focus,
+.reply__column button:active {
+  outline: none;
+}
