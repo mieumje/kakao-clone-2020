@@ -31,6 +31,7 @@
   }
   to {
     opacity: 0;
+    visibility: hidden;
   }
 }
 #splash-screen {
