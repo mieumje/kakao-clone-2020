@@ -42,7 +42,7 @@
 .message__author {
   opacity: 0.8;
   font-size: 13px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   display: block;
 }
 .message__bubble {
