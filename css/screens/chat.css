@@ -109,3 +109,10 @@
   right: 40px;
   top: 10px;
 }
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
