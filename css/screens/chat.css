@@ -47,5 +47,6 @@
 }
 .message__bubble {
   background-color: white;
-  padding: 8px;
+  padding: 8px 13px;
+  border-radius: 15px;
 }
