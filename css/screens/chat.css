@@ -32,6 +32,7 @@
 .message-row {
   width: 100%;
   display: flex;
+  margin-bottom: 25px;
 }
 .message-row img {
   width: 50px;
