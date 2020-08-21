@@ -69,4 +69,8 @@
   background-color: var(--yellow);
   border-top-right-radius: 0;
   border-top-left-radius: 15px;
+  order: 1;
+}
+.message-row--own .message__time {
+  order: 0;
 }
