@@ -67,4 +67,6 @@
 }
 .message-row--own .message__bubble {
   background-color: var(--yellow);
+  border-top-right-radius: 0;
+  border-top-left-radius: 15px;
 }
