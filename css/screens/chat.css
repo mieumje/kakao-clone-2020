@@ -142,11 +142,11 @@
 .reply__column button:active {
   outline: none;
 }
-.reply:focus-within .reply__column:first-child {
-  opacity: 0;
-  visibility: hidden;
-}
+
+.reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-smile-wink,
 .reply:focus-within button {
   opacity: 0;
+}
+.reply:focus-within {
 }
