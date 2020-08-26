@@ -146,3 +146,7 @@
   opacity: 0;
   visibility: hidden;
 }
+.reply:focus-within .fa-smile-wink,
+.reply:focus-within button {
+  opacity: 0;
+}
