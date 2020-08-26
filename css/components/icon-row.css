@@ -1,23 +1,51 @@
 .icon-row {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 .icon-row2 {
   display: flex;
-  margin-top: 15px;
-  padding-left: 5px;
+  width: 100%;
 }
-.icon-row__icon {
+.icon-row__icon:first-child {
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.icon-row__icon2 {
+.icon-row__icon:nth-child(2) {
+  width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 215px;
 }
+.icon-row__icon:nth-child(3) {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row__icon:last-child {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row2 {
+  padding-top: 25px;
+}
+.icon-row__icon2:first-child {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-row__icon2:nth-child(2) {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .icon-row__icon i {
   font-size: 35px;
 }
