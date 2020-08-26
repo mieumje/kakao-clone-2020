@@ -18,11 +18,9 @@
 
 @keyframes fadeIn {
   from {
-    transform: translateY(10px);
     opacity: 0;
   }
   to {
-    transform: none;
     opacity: 1;
   }
 }
@@ -41,6 +39,33 @@
   font-size: 14px;
   margin-bottom: 25px;
 }
+@keyframes fadeInmessage-author {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes fadeInmessage-own {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.message-row__content {
+  animation: fadeInmessage-author 0.6s ease-in-out;
+}
+.message-row__content-right {
+  animation: fadeInmessage-own 0.6s ease-in-out;
+}
+
 .message-row {
   width: 100%;
   display: flex;
