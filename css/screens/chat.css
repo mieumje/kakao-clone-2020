@@ -113,6 +113,7 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
+  transition: all 0.3s ease-in;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -148,5 +149,6 @@
 .reply:focus-within button {
   opacity: 0;
 }
-.reply:focus-within {
+.reply:focus-within input {
+  width: 95vw;
 }
